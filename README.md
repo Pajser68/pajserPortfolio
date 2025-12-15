@@ -1,2 +1,19 @@
-# pajserPortfolio
-Portfolio page made with Python and Flask as a part of the undergraduate computer science course.
+# Web portfolio 
+## UVOD
+Opis svrhe projekta u kratkim -- \
+
+## Upute za pokretanje
+
+## Opis koda
+
+## BP
+test tekst \
+sssssss
+
+## Opis Dockerfilea
+Glavna funkcija je funkcija `main`
+
+```py
+def main():
+    return
+```
