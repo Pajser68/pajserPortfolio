@@ -5,10 +5,9 @@ from database import db
 app = Flask(__name__)
 
 # Database configuration
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(
-    'DATABASE_URL',
-    'sqlite:///portfolio.db'  # Fallback for local development
-)
+database_url = os.getenv('DATABASE_URL', 'sqlite:///portfolio.db')
+print(f"Using database: {database_url}")  # Debug logging
+app.config['SQLALCHEMY_DATABASE_URI'] = database_url
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Initialize db with app
