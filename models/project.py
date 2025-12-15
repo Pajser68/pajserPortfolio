@@ -10,6 +10,3 @@ class Project(db.Model):
     github_link = db.Column(db.String(500))
     description = db.Column(db.Text)
     technologies = db.Column(db.String(500))
-    
-    def __repr__(self):
-        return f'<Project {self.name}>'
