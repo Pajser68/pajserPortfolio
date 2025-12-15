@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}About Me - My Portfolio{% endblock %}
+
+{% block content %}
+<section class="about-section">
+    <h1>About Me</h1>
+    
+    <div class="about-content">
+        <div class="profile-card">
+            <h2>Hello, I'm Mihael</h2>
+            <p class="tagline">CS Student | Gamer | Chess enthusiast</p>
+        </div>
+        
+        <div class="bio">
+            <h3>My Story</h3>
+            <p>
+                I'm a passionate video gamer with slight inclinations toward programming and backend development.
+                I spend my free time playing chess and hanging around a local library.
+            </p>
+            <p>
+                My journey in backend development started when I first discovered Flask and was presented by the beauty
+                and ease of developing web applications in a matter of hours. I preffer using PostgreSQL.
+            </p>
+            
+            <h3>Skills & Technologies</h3>
+            <div class="skills">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Flask</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">HTML/CSS</span>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
